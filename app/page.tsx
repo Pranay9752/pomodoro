@@ -185,7 +185,7 @@ export default function PomodoroTimer(): JSX.Element {
         {/* Header */}
         <div className="text-center mb-6 sm:mb-8">
           <h1 className="text-4xl sm:text-5xl font-bold bg-gradient-to-r from-rose-400 via-pink-400 to-purple-400 bg-clip-text text-transparent mb-2">
-            pomodoro timer
+            Pomodoro timer
           </h1>
           <p className="text-purple-300 font-medium flex items-center justify-center gap-2 text-sm sm:text-base">
             <Sparkles className="w-3 h-3 sm:w-4 sm:h-4" />
@@ -217,8 +217,8 @@ export default function PomodoroTimer(): JSX.Element {
                   : 'bg-purple-50 text-purple-400 hover:bg-purple-100'
               }`}
             >
-              <Coffee className="w-3 h-3 sm:w-4 sm:h-4 inline mr-1 sm:mr-2" />
-              <span className="hidden sm:inline">Short Break</span>
+              <Coffee className="w-3 h-3 sm:w-4 sm:h-4 inline mr-1 sm:mr-2 " />
+              <span className="hidden sm:inline text-sm">Short Break</span>
               <span className="sm:hidden">Short</span>
             </button>
             <button
@@ -230,7 +230,7 @@ export default function PomodoroTimer(): JSX.Element {
               }`}
             >
               <Coffee className="w-3 h-3 sm:w-4 sm:h-4 inline mr-1 sm:mr-2" />
-              <span className="hidden sm:inline">Long Break</span>
+              <span className="hidden sm:inline text-sm">Long Break</span>
               <span className="sm:hidden">Long</span>
             </button>
           </div>
